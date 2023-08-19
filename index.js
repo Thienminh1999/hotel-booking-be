@@ -6,9 +6,9 @@ const morgan = require("morgan");
 const fs = require("fs");
 const app = express();
 const mongoose = require("mongoose");
-const hotelRoutes = require("../routes/hotelRoutes");
-const userRoutes = require("../routes/userRoutes");
-const adminRoutes = require("../routes/adminRoutes");
+const hotelRoutes = require("./routes/hotelRoutes");
+const userRoutes = require("./routes/userRoutes");
+const adminRoutes = require("./routes/adminRoutes");
 const path = require("path");
 
 app.use(cors());
