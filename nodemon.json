@@ -1,0 +1,7 @@
+{
+  "env": {
+    "MONGO_USER": "sa",
+    "MONGO_PASSWORD": "Minhmomong83",
+    "MONGO_DEFAULT_DATABASE": "hotel-booking"
+  }
+}
